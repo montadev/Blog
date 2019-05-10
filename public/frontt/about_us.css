@@ -1,0 +1,184 @@
+/* header */
+header{
+    background-image: linear-gradient(to bottom, #bc7000, #ee816e, #faa8bd, #f3d6ee, #ffffff);
+}
+.top-menu li a{
+    color: black !important;
+}
+.header--logo > *{
+    vertical-align: middle;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img{
+    width: 100px;
+}
+.e{
+    width: 30px;
+    margin: 0 5px;
+}
+.titre-logo{
+    text-align: center;
+    padding: 0 20px;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+    width: 100px;
+}
+
+/* end header */
+
+h1{
+	font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    color:#fbc141;
+	border-bottom:3px solid #9cbee5;
+    padding: 10px;
+	width:50%;
+	margin: 0 auto;
+
+	margin-bottom:15px;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.para{
+
+	margin-bottom: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #bec3c7;
+  text-align: left;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f39c11;
+}
+
+.img{
+	width:3%;
+}
+
+.citation{
+
+	color:#bd7845;
+	text-align: right;
+
+	
+}
+
+
+
+/* carre */
+#triangle-1 {
+        width: 0;
+        height: 0;
+        border-left: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-bottom: 300px solid #FF9800;
+    }
+
+    #triangle-2 {
+        width: 0;
+        height: 0;
+        border-left: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-top: 300px solid #FF9800;
+    }
+
+    #all {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #inAll{
+		position: relative;
+        text-align: center;
+        width: 600px;
+        height: 600px;
+    }
+
+    #contenu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 600px;
+    }
+
+    .carre {
+        height: 245px;
+        margin: 25px 25px;
+        width: 40%;
+        display: inline-block;
+        background-color: black;
+        border-radius: 30px;
+        border: 3px solid white;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: white;
+        font-size: 15px;
+        display:inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec6{
+    	width: 80%;
+    	margin: 20px auto;
+    }
+    .inSec6 {
+    	border-radius: 10px;
+    	border: 2px solid black;
+        margin: 20px 0;
+    }
+    .inSec6 .col-lg-2{
+    	color: #FF9800;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	padding: 10px;
+    }
+
+    .inSec6 .col-lg-10{
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	text-align: center;
+    	vertical-align: bottom;
+    	padding: 10px;
+    	border-radius: 10px;
+    }
+    .inSec6 .col-lg-10 *{
+    	margin: 0;
+    }
